@@ -1,10 +1,10 @@
-
-import './App.css';
+import './App.scss';
+import MainWindow from "./components/mainWindow/index.js"
 
 function App() {
   return (
     <div className="App">
-      <h1>Frontend</h1>
+     <MainWindow />
     </div>
   );
 }
